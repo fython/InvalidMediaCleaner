@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">InvalidMediaCleaner</string>
+    <string name="app_name_en" translatable="false">Invalid Media Cleaner</string>
+
+    <string name="first_step_tips"><![CDATA[
+    Start scan and choose invalid media files to remove.<br>
+    <br>
+    Step:<br>
+    1. <b>Click "Scan" button</b> and wait for finishing scanning.<br>
+    2. <b>Choose actually invalid media files</b> and click "Clean" button.<br>
+    3. Done!<br>
+    ]]></string>
+    <string name="action_scan">Start scan</string>
+    <string name="action_clean">Clean</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_help">Help</string>
+
+    <string name="progress_text_scanning">Scanning…</string>
+    <string name="progress_text_cleaning">Cleaning…</string>
+    <string name="empty_text">No Result</string>
+
+    <string name="dialog_confirm_clean_title">Confirm cleaning</string>
+    <string name="dialog_confirm_clean_message">Do you want to remove %d selected item(s) from MediaStore? This operation cannot be reverted.</string>
+
+    <string name="dialog_finished_clean_title">Finished</string>
+    <string name="dialog_finished_clean_message">%d item(s) have been removed from MediaStore.</string>
+
+</resources>

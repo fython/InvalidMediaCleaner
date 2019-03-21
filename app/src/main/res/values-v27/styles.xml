@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme.V27" parent="BaseTheme">
+        <item name="android:navigationBarDividerColor">@color/navigation_divider_color</item>
+        <item name="android:navigationBarColor">@color/material_grey_50</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="BaseTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorAccent">@color/material_pink_A200</item>
+
+        <item name="android:statusBarColor">@color/material_grey_50</item>
+        <item name="android:windowBackground">@color/material_grey_50</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="BaseTheme.V27" parent="BaseTheme">
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme.V27">
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Main" parent="AppTheme.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
